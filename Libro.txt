@@ -17,3 +17,17 @@ public Libro(String titulo, String autor, String iSBN, Boolean prestado)
 	ISBN = iSBN;
 	this.prestado = prestado;
 }
+
+public String generador()
+{
+	return autor;
+}
+public void setAutor(String autor)
+{
+	this.autor = autor;
+}
+
+@Override
+public String toString()
+{
+	return "libro [titulo="+titulo+", autor=" autor+ ", ISBN = "+ISBN +", presentado = " presentado+ "]" 
